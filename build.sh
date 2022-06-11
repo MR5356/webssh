@@ -1,0 +1,1 @@
+docker buildx build -t toodo/webssh:latest --platform=linux/arm64,linux/amd64 . --push
